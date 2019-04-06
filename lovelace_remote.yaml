@@ -1,0 +1,210 @@
+type: picture-elements
+image: /local/remote.png
+elements:
+  - type: service-button
+    service: media_player.toggle
+    service_data:
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      top: 11.3%
+      left: 50.4%
+  - type: service-button
+    service: media_player.volume_up
+    service_data:
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      top: 62%
+      left: 34%
+  - type: service-button
+    service: media_player.volume_down
+    service_data:
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      top: 75%
+      left: 34%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/button
+      payload: up
+    style:
+      top: 22%
+      left: 50.5%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/button
+      payload: down
+    style:
+      top: 41%
+      left: 50.5%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/button
+      payload: left
+    style:
+      top: 32%
+      left: 35%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/button
+      payload: right
+    style:
+      top: 31.7%
+      left: 67%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/button
+      payload: enter
+    style:
+      top: 32%
+      left: 50.5%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/button
+      payload: mute
+    style:
+      top: 68.6%
+      left: 50.5%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/button
+      payload: menu
+    style:
+      top: 60.3%
+      left: 50.5%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/button
+      payload: cc
+    style:
+      top: 76.7%
+      left: 50.5%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/button
+      payload: channelup
+    style:
+      top: 61%
+      left: 67%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/button
+      payload: channeldown
+    style:
+      top: 75%
+      left: 67%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/media.controls/play
+    style:
+      top: 85%
+      left: 34%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/media.controls/pause
+    style:
+      top: 85%
+      left: 51%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/media.controls/stop
+    style:
+      top: 85%
+      left: 67%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/media.controls/rewind
+    style:
+      top: 91%
+      left: 34%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/media.controls/fastForward
+    style:
+      top: 91%
+      left: 67%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/media.controls/record
+    style:
+      top: 91%
+      left: 51%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/button
+      payload: back
+    style:
+      top: 41.5%
+      left: 34%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/button
+      payload: exit
+    style:
+      top: 41.5%
+      left: 67%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/launch
+      payload: netflix
+    style:
+      top: 51.6%
+      left: 30%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/launch
+      payload: hulu
+    style:
+      top: 51.6%
+      left: 45%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/launch
+      payload: cdp-30
+    style:
+      top: 51.6%
+      left: 56%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/launch
+      payload: amazon
+    style:
+      top: 51.6%
+      left: 69%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/launch
+      payload: com.webos.app.browser
+    style:
+      top: 22%
+      left: 34%
+  - type: service-button
+    service: mqtt.publish
+    service_data:
+      topic: lg/set/button
+      payload: input
+    style:
+      top: 22%
+      left: 67%
