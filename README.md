@@ -14,7 +14,7 @@ Prerequisites:
 
 - installed LGWebOS component and WOL for powering on: https://www.home-assistant.io/components/webostv/
 - installed and functional lgtv2mqtt: https://github.com/hobbyquaker/lgtv2mqtt
-- Home Assistant with Lovelace 
+- Home Assistant with Lovelace + MQTT
 - Other things I cant think of ???
 
 Steps to setup:
