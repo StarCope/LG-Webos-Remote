@@ -1,5 +1,6 @@
 # LG-Webos-Remote
-Picture Elements lovelace card for LG WebOS tvs
+![Remote](/LG-Webos-Remote/remote.png)
+
 
 Similar to the Roku Remote I've shared, I wanted to have a clickable remote control within Home assistant for my new LG WebOStv so I took advantage of a few things to stitch one together.
 
