@@ -1,8 +1,7 @@
 # LG-Webos-Remote
-![Remote](/LG-Webos-Remote/remote.png)
-
-
 Similar to the Roku Remote I've shared, I wanted to have a clickable remote control within Home assistant for my new LG WebOStv so I took advantage of a few things to stitch one together.
+
+![Remote](https://github.com/moistgun/LG-Webos-Remote/blob/master/remote.png)
 
 I am controlling the power toggle on the TV using the built in Media player services in home assistant + the Wake on Lan feature in the docs.
 
@@ -32,10 +31,17 @@ Steps to setup:
 *Notes
 
 Red - Netflix
+
 Green - Hulu
+
 Yellow - Plex
+
 Blue - Amazon Prime
+
 Smart - Web Browser (set homepage in browser to info page of home assistant for weather and things)
+
 input - Doesnt do anything
+
 Info - Set to CC, but doesn't seem to be doing anything in Netflix (too lazy to test more)
+
 Hamburger icon - Not set to anything
